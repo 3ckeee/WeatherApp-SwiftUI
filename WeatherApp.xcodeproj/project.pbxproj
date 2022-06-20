@@ -12,6 +12,7 @@
 		1002DECE2836C8050056369E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1002DECD2836C8050056369E /* Assets.xcassets */; };
 		1002DED12836C8050056369E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1002DED02836C8050056369E /* Preview Assets.xcassets */; };
 		1002DEDD2836C9290056369E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002DEDC2836C9290056369E /* APIService.swift */; };
+		10BB7D0B2861318000EBDC83 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BB7D0A2861318000EBDC83 /* ForecastViewModel.swift */; };
 		10CF3D6F2838461A00410F26 /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CF3D6E2838461A00410F26 /* ForecastModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		1002DED02836C8050056369E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1002DED22836C8050056369E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1002DEDC2836C9290056369E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		10BB7D0A2861318000EBDC83 /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
 		10CF3D6E2838461A00410F26 /* ForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,7 @@
 			children = (
 				1002DEC92836C8020056369E /* WeatherAppApp.swift */,
 				1002DECB2836C8020056369E /* ContentView.swift */,
+				10BB7D0A2861318000EBDC83 /* ForecastViewModel.swift */,
 				1002DECD2836C8050056369E /* Assets.xcassets */,
 				10CF3D6E2838461A00410F26 /* ForecastModel.swift */,
 				1002DED22836C8050056369E /* Info.plist */,
@@ -148,6 +151,7 @@
 				1002DEDD2836C9290056369E /* APIService.swift in Sources */,
 				1002DECA2836C8020056369E /* WeatherAppApp.swift in Sources */,
 				10CF3D6F2838461A00410F26 /* ForecastModel.swift in Sources */,
+				10BB7D0B2861318000EBDC83 /* ForecastViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
