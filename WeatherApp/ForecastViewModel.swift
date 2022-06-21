@@ -30,7 +30,7 @@ struct ForecastViewModel {
     }
     
     func convert(_ temp: Double) -> Double {
-        let celsius = temp - 273.5
+        let celsius = temp
         if system ==  0 {
             return celsius
         } else {
@@ -63,5 +63,10 @@ struct ForecastViewModel {
     
     var humidity: String {
         return "Humidity: \(forecast.humidity)%"
+    }
+    
+    var weatherIconURL: URL {
+        let urlString = "https://openweathermap.org/img/wn/\(forecast.weather[0].icon)@2x.png"
+        return URL(string: urlString)!
     }
 }
